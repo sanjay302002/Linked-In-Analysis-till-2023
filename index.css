@@ -1,0 +1,27 @@
+.container {
+   
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust height as needed */
+  }h1{
+    text-align: center;
+  }
+  
+  
+  .container img {
+    width: 1500px; /* Adjust width as needed */
+    height: 900px; /* Adjust height as needed */
+  }
+  
+  .counter {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%); /* Center the counter text */
+    font-size: 2em;
+    color: white; /* Adjust color as needed */
+    background-color: black; /* Adjust background color as needed */
+    padding: 5px;
+    border-radius: 50%; /* Make the counter circular */
+  }
+  
